@@ -1,0 +1,24 @@
+package com.y_lab.car_shop_spring_boot.model;
+
+import lombok.Getter;
+import lombok.ToString;
+
+/**
+ * Перечисление, представляющее различные роли пользователей в системе.
+ *
+ * <p>Каждая роль имеет связанный с ней заголовок, который используется для удобного отображения роли.</p>
+ */
+@Getter
+@ToString
+public enum Roles {
+    ADMINISTRATOR("Администратор"),
+    MANAGER("Менеджер"),
+    CLIENT("Клиент");
+
+    private final String title;
+
+    Roles(String title) {
+        this.title = title;
+    }
+
+}

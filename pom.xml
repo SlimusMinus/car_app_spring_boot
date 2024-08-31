@@ -28,6 +28,7 @@
         <module>aspect-logging-audit</module>
         <module>car_app</module>
         <module>spring-swagger-starter</module>
+        <module>car_app</module>
     </modules>
 
     <scm>

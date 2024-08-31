@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="car_app" />
         <module name="spring-swagger-starter" />
+        <module name="car_app" />
         <module name="aspect-logging-audit" />
       </profile>
     </annotationProcessing>
