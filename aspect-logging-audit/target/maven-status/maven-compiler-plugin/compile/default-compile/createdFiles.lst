@@ -1,0 +1,3 @@
+org\example\aop\UserAuditAspect.class
+org\example\app\AspectLogging.class
+org\example\AuditLoggingAutoConfiguration.class
